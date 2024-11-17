@@ -3,6 +3,7 @@
   --color-primary: #34547a;
   --color-gray-light: #eeeff1;
   --color-white: white;
+  --color-white-gray: #F9F9F9;
   --color-secondary: #727272;
   --font-size: 16px;
   --font-size-md: 14px;
@@ -117,12 +118,13 @@ a {
   color: var(--color-white);
   background-color: var(--color-primary);
   letter-spacing: var(--letter-spacing);
-  padding: 1.5em 1em;
+  padding: 1.21em 1em;
 }
 
 .section {
   padding-top: 105px;
   padding-bottom: 92px;
+  background-color: var(--color-white-gray);
 }
 
 .section__title {
